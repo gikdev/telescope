@@ -1,0 +1,11 @@
+@import "@/styles/mixins";
+
+.sidebar {
+  @include bordered-box;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style-type: none;
+  width: 60rem;
+}

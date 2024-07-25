@@ -1,0 +1,39 @@
+html {
+  font-size: 25%; // 4px
+  background: var(--clr-neutral-900);
+  min-height: 100dvh;
+}
+
+body {
+  color: var(--clr-neutral-300);
+  font-size: 4rem;
+  min-height: 100dvh;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+main {
+  display: flex;
+  gap: 4rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-items: stretch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--clr-neutral-100);
+}
+
+section {
+  // TEMP
+  @include bordered-box;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: var(--fz-heading-h1);
+  opacity: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

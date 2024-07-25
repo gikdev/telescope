@@ -1,0 +1,41 @@
+:root {
+  --clr-primary: hsl(207, 80%, 50%);
+  --clr-secondary: hsl(154, 80%, 50%);
+  --clr-accent: hsl(285, 80%, 50%);
+
+  --clr-neutral-100: hsl(204, 10%, 90%);
+  --clr-neutral-200: hsl(204, 10%, 80%);
+  --clr-neutral-300: hsl(204, 10%, 70%);
+  --clr-neutral-400: hsl(204, 10%, 60%);
+  --clr-neutral-500: hsl(204, 10%, 50%);
+  --clr-neutral-600: hsl(204, 10%, 40%);
+  --clr-neutral-700: hsl(204, 10%, 30%);
+  --clr-neutral-750: hsl(204, 10%, 25%);
+  --clr-neutral-800: hsl(204, 10%, 20%);
+  --clr-neutral-850: hsl(204, 10%, 15%);
+  --clr-neutral-900: hsl(204, 10%, 10%);
+
+  --clr-msg-success: hsl(350, 80%, 50%);
+  --clr-msg-warning: hsl(140, 80%, 50%);
+  --clr-msg-error: hsl(50, 80%, 50%);
+  --clr-msg-info: hsl(210, 80%, 50%);
+
+  --fz-heading-h1: 12rem;
+  --fz-heading-h2: 10rem;
+  --fz-heading-h3: 8rem;
+  --fz-heading-h4: 6rem;
+  --fz-heading-h5: 4rem;
+  --fz-heading-h6: 2rem;
+
+  --fz-text-2xl: 7rem;
+  --fz-text-xl: 6rem;
+  --fz-text-lg: 5rem;
+  --fz-text-md: 4rem;
+  --fz-text-sm: 3rem;
+
+  --radius-lg: 4rem;
+  --radius-md: 2rem;
+  --radius-sm: 1rem;
+
+  --border-slight: 0.5rem solid var(--clr-neutral-850);
+}

@@ -1,0 +1,5 @@
+@mixin bordered-box($px: 4rem, $py: 4rem) {
+  border: var(--border-slight);
+  border-radius: var(--radius-lg);
+  padding: $px $py;
+}

@@ -1,0 +1,26 @@
+.sidebarItem {
+  padding: 2rem;
+  line-height: 1;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: var(--fz-text-lg);
+  border-radius: var(--radius-md);
+  
+  &:hover {
+    // padding-inline-start: 4rem;
+    color: var(--clr-neutral-100);
+    background: var(--clr-neutral-850);
+  }
+}
+
+.active {
+  background: var(--clr-primary);
+  color: var(--clr-neutral-100);
+
+  &:hover {
+    background: var(--clr-primary);
+    color: var(--clr-neutral-100);
+  }
+}

@@ -1,0 +1,30 @@
+@import "@/styles/mixins";
+
+.nav {
+  @include bordered-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLogo {
+  font-size: var(--fz-heading-h3);
+  text-decoration: none;
+  color: var(--clr-neutral-100);
+  font-weight: 900;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.navProfile {
+  text-decoration: none;
+
+  img {
+    $size: 12rem;
+    width: $size;
+    height: $size;
+    border-radius: var(--radius-md);
+  }
+}
